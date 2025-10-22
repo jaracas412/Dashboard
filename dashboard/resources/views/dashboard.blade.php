@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panel Analítico</title>
     <link rel="stylesheet" href="{{ asset('assets/css/styles.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 
 <body>
     <header>
-        <h1>Panel Analítico XYZ</h1>
+        <h1>Dashboard Jose</h1>
         <div class="search-bar">
             <input type="text" placeholder="Buscar datos...">
             <i class="fas fa-search"></i>
@@ -88,7 +89,7 @@
         </section>
     </main>
 
-    <script src="{{ asset('assets/js/dashboard.js') }}" defer></script>
+<script src="{{ asset('assets/js/dashboard.js') }}" defer></script>
 </body>
 
 </html>
