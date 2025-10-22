@@ -88,7 +88,7 @@
         </section>
     </main>
 
-    <script src="script.js"></script>
+    <script src="{{ asset('assets/js/dashboard.js') }}" defer></script>
 </body>
 
 </html>
